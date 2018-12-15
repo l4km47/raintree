@@ -87,7 +87,9 @@ transition: 0.63;
 }
 nav li a:hover {color: #fff;
 }
-
+nav li a.active {
+	background-color: #00ca76;
+}
 
 
 /*  Removable CSS  */
@@ -165,10 +167,7 @@ nav li a {
 nav li a.logo {
 	display: none;
 }
-nav li a.active {
-	color: #fff;
-	background-color: #00f992;
-}
+
 nav li a:hover {
 	color: #fff;
 	background-color: #19252c;
