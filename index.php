@@ -37,19 +37,21 @@
 	<!--	<h1>The Rain Tree Hotel</h1>  	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
 		<ul id="navToggle" class="burger slide">    <!--	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
 			<li></li><li></li><li></li>
-
 		</ul>
+		<h1>The Rain Tree hotel</h1>
 
 	</header>
+	<img src="./img/nologo.png" class="logo1"/>
 
-	<nav class="slide">
+	<nav class="slide fill">
 		<ul>
 			<li><a href="./" class="active">HOME</a></li>
-			<li><a href="#">LINK TWO</a></li>
-			<li><a href="#">LINK THREE</a></li>
-			<li><a href="#">LINK FOUR</a></li>
-			<li><a href="#">LINK FIVE</a></li>
-			<li><a href="#">LINK SIX</a></li>
+			<li><a href="#">ABOUT US</a></li>
+			<li><a href="#">RESTAURANT</a></li>
+			<li><a href="#">WEDDING HALL</a></li>
+			<li><a href="#">GALLERY</a></li>
+			<li><a href="#">CONTACT US</a></li>
+			<li><span/></li>
 		</ul>
 	</nav>
 
