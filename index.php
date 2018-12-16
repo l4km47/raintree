@@ -34,6 +34,20 @@
 <div class="container">
 
 	<header class="slide">
+		<div class="s-media">
+			<div class="footer-social-icons">
+	    <ul class="social-icons">
+	        <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+	        <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+	        <li><a href="" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+	        <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+	        <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+	        <li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+	    </ul>
+			<p>| &nbsp;&nbsp; Call us : <a href="tel:+94472238125">
+				(+94) 047 223 8125</a></p>
+
+	</div></div>
 	<!--	<h1>The Rain Tree Hotel</h1>  	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
 		<ul id="navToggle" class="burger slide">    <!--	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
 			<li></li><li></li><li></li>
@@ -51,26 +65,25 @@
 			<li><a href="#">WEDDING HALL</a></li>
 			<li><a href="#">GALLERY</a></li>
 			<li><a href="#">CONTACT US</a></li>
-			<li><span/></li>
 		</ul>
 	</nav>
 
 	<div class="content slide">     <!--	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
 		<ul class="responsive">
 			<li class="header-section">
-				<p class="placefiller">header</p>
-			</li>
-			<li class="body-section">
-				<p class="placefiller">body</p>
-			</li>
-			<li class="footer-section">
-				<p class="placefiller">footer</p>
+				<div class="placefiller">
+					<div class="pic-wrapper">
+  <figure class="pic-1"></figure>
+  <figure class="pic-2"></figure>
+  <figure class="pic-3"></figure>
+  <figure class="pic-4"></figure></div>
 			</li>
 		</ul>
 	</div>
 
 </div>
 
+<footer></footer>
 
 </body>
 </html>
