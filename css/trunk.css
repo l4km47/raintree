@@ -82,6 +82,7 @@ nav li a:hover {
 
 .logo1{
     right: 0;
+
     position: fixed;
     width: 120px;
     /* float: right; */
@@ -177,12 +178,13 @@ img.logo1 {
 	display: block;
 	margin-left: 0;
 	margin-right: 0;
-	width: 40%;
+	/* width: 40%; */
 	/* height: 40%; */
 	z-index:100;
-	top: -10px;
-	/* padding-right: 100%; */
-	padding-left: 100%;
+	top: 0;
+	left: 0;
+	padding-right: 100%;
+	/* padding-left: 100%; */
 }
 
 header {
