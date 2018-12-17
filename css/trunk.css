@@ -4,13 +4,15 @@
 body {
 	overflow-y: scroll;
 overflow-x: hidden;
-/* background: white; */font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;color: #9aa6af;text-rendering: optimizelegibility;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-text-size-adjust: none;-webkit-font-smoothing: antialiased;-moz-tap-highlight-color:rgba(0,0,0,0);-moz-text-size-adjust: none;-moz-font-smoothing: antialiased;-ms-tap-highlight-color:rgba(0,0,0,0);-ms-text-size-adjust: none;-ms-font-smoothing: antialiased;}
-background: url(https://superdevresources.com/wp-content/uploads/2015/12/new-york-background.jpg) no-repeat center center fixed;
+/* background: white; */
+    font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;color: #9aa6af;text-rendering: optimizelegibility;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-text-size-adjust: none;-webkit-font-smoothing: antialiased;-moz-tap-highlight-color:rgba(0,0,0,0);-moz-text-size-adjust: none;-moz-font-smoothing: antialiased;-ms-tap-highlight-color:rgba(0,0,0,0);-ms-text-size-adjust: none;-ms-font-smoothing: antialiased;
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
 a {text-decoration: none;
 }
 .container {
@@ -118,7 +120,7 @@ nav li a:hover {
 ._14 {
     font-size: 1.4em;
 }
-ul {
+.s-media ul {
     padding:0;
     list-style: none;
 }
@@ -594,8 +596,7 @@ nav.close {
 }
 
 /*Content Sliding Open Effect*/
-header.open,
-.content.open
+header.open,.content.open
 {
 	-webkit-transform: translate3d(240px,0,0);
 	-webkit-animation: open .5s ease-in-out;

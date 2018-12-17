@@ -55,7 +55,7 @@
 		<h1>The Rain Tree hotel</h1>
 
 	</header>
-	<img src="https://via.placeholder.com/200x120" class="logo1"/>
+	<img src="./img/big-logo.png" class="logo1"/>
 
 	<nav class="slide fill">
 		<ul>
@@ -67,23 +67,23 @@
 			<li><a href="#">CONTACT US</a></li>
 		</ul>
 	</nav>
+</div>
 
-	<div class="content slide">     <!--	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+	<div class="content slide">    
 		<ul class="responsive">
 			<li class="header-section">
 				<div class="placefiller">
 					<div class="pic-wrapper">
-  <figure class="pic-1"></figure>
-  <figure class="pic-2"></figure>
-  <figure class="pic-3"></figure>
-  <figure class="pic-4"></figure>
-					</div>
-		</div>
-	</li>
-</ul>
-
-</div>
-</div>
+                        <figure class="pic-1"></figure>
+                        <figure class="pic-2"></figure>
+                        <figure class="pic-3"></figure>
+                        <figure class="pic-4"></figure>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
 <footer>
 	<img src="https://via.placeholder.com/200x120" class="logo-bottom"/>
 	<div>
