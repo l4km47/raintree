@@ -89,7 +89,7 @@ nav li a {
 
 }
 nav li a:hover {
-  background-color: #008810;
+  background-color: #4b8b3b;
 	color: #fff;
 }
 
@@ -108,7 +108,9 @@ nav li a:hover {
     color: #000;
  }
  .s-media a{
-	 color: #008810;
+	 color: #4b8b3b;
+	 text-decoration: none;
+
  }
 ._12 {
     font-size: 1.2em;
@@ -224,8 +226,9 @@ ul.social-icons {
 .logo1{
     right: 0;
 z-index: 2;
+top: 5px;
     position: fixed;
-    width: 120px;
+  /*  width: 120px;
     /* float: right; */
     padding-right: 100px;
 }
@@ -278,17 +281,24 @@ nav li a.active {
 	color: #008800;
 	text-decoration: underline;
 }
-/*  Removable CSS  */label{ cursor:pointer; display:inline-block; transition:1s ease; margin-bottom:1400px; }
 
 footer{
   position:absolute;
   bottom:0;
   width:100%;
-  height:250px;
+  height:200px;
 	top: 100%;
-
-	background-color: #008810;
+	background-color: #4b8b3b;
+	z-index: -1;
 }
+
+
+footer .logo-bottom{
+	/* bottom: 15px; */
+	/* left: 150px; */
+	margin: 25px 15px;
+}
+
 .header-section,
 .body-section,
 .footer-section
@@ -398,10 +408,6 @@ figurecaption {
 @media only screen and (max-width: 780px) {
 
 .s-media {
-	    margin-before: 0;
-	    margin-after: 0;
-	    margin-start: 0;
-	    margin-end: 0;
 	    margin-top:0px;
 	    width: 0;
     	border-width: 0px;
@@ -475,7 +481,7 @@ nav li {
 	float: none;
 }
 nav li a {
-	padding: 22px 25px;
+	padding: 15px 25px;
 	letter-spacing: 3px;
 	font-size: 14px;
 }
@@ -487,7 +493,7 @@ nav li a {
 
 nav li a:hover {
 	color: #fff;
-	background-color: #008810;
+	background-color: #4b8b3b;
 }
 nav li:first-child a.active,
 nav li:first-child a:hover
@@ -498,17 +504,17 @@ nav li:first-child a:hover
 
 /* NAVIGATION ANNIMATION */
 nav {
-	width: 93%;
+	/*width: 93%;*/
 	height: 100%;
 	position: fixed;
 	left: 0;
-	top: 121px;
+	top: 120px;
 	margin: 0;
 	/*background-color: #00f992;*/
-	border-radius: 8px;
+	border-radius: 3px;
 
 	/* starting point */
-	opacity: .3;
+	opacity: 0;
 	-webkit-transform: translate3d(5%,0,0)scale(.97);
 	-moz-transform: translate3d(5%,0,0)scale(.97);
 	transform: translate3d(5%,0,0)scale(.97);
@@ -540,7 +546,7 @@ nav.open {
 				-moz-transform: translate3d(0,0,0)scale(1);}
 }
 @keyframes slideIn {
-	0%      {opacity: .3;
+	0%      {opacity: 0;
 				transform: translate3d(5%,0,0)scale(.97);}
 	100%  {opacity: 1;
 				transform: translate3d(0,0,0)scale(1);}
@@ -548,14 +554,12 @@ nav.open {
 
 /*Nav Shrinking Closed Effect*/
 nav.close {
-	opacity: .3;
+	opacity: 0;
 
 	-webkit-transform: translate3d(5%,0,0)scale(.97);
 	-webkit-animation: slideOut .3s ease-in-out;
-
 	-moz-transform: translate3d(5%,0,0)scale(.97);
 	-moz-animation: slideOut .3s ease-in-out;
-
 	transform: translate3d(5%,0,0)scale(.97);
 	animation: slideOut .3s ease-in-out;
 }
@@ -586,7 +590,7 @@ nav.close {
 	-webkit-transform: translate3d(0,0,0);
 	-moz-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
-	z-index: 1;
+	opacity: 1;
 }
 
 /*Content Sliding Open Effect*/

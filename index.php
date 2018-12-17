@@ -46,8 +46,8 @@
 	    </ul>
 			<p>| &nbsp;&nbsp; Call us : <a href="tel:+94472238125">
 				(+94) 047 223 8125</a></p>
-
-	</div></div>
+</div>
+</div>
 	<!--	<h1>The Rain Tree Hotel</h1>  	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
 		<ul id="navToggle" class="burger slide">    <!--	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
 			<li></li><li></li><li></li>
@@ -55,7 +55,7 @@
 		<h1>The Rain Tree hotel</h1>
 
 	</header>
-	<img src="./img/nologo.png" class="logo1"/>
+	<img src="https://via.placeholder.com/200x120" class="logo1"/>
 
 	<nav class="slide fill">
 		<ul>
@@ -76,14 +76,20 @@
   <figure class="pic-1"></figure>
   <figure class="pic-2"></figure>
   <figure class="pic-3"></figure>
-  <figure class="pic-4"></figure></div>
-			</li>
-		</ul>
-	</div>
+  <figure class="pic-4"></figure>
+					</div>
+		</div>
+	</li>
+</ul>
 
 </div>
-
-<footer></footer>
+</div>
+<footer>
+	<img src="https://via.placeholder.com/200x120" class="logo-bottom"/>
+	<div>
+		<h3>Contact us</h3>
+	</div>
+</footer>
 
 </body>
 </html>
