@@ -15,7 +15,7 @@
 <link rel="stylesheet" type="text/css" media="all" href="css/trunk.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
 
-    
+
 <!-- Scripts -->
 <script type="text/javascript">
 	if (typeof jQuery == 'undefined')
@@ -25,7 +25,7 @@
 <script type="text/javascript" language="javascript" src="js/trunk.js"></script>
 <script type="text/javascript" language="javascript" src="js/index.js"></script>
 </head>
- 
+
 <body>
 
 <div class="container">
@@ -50,7 +50,7 @@
             <li></li><li></li><li></li>
 		</ul>
         <h1 id="h1">
-       
+
         </h1>
 	</header>
 	<img src="img/big-logo.png" class="logo1"/>
@@ -67,7 +67,7 @@
             <li><a href="#">OFFERS</a></li>
             <li><a href="#">ACCOMMODATION</a></li>
             <li><a href="#">CONTACT US</a></li>
-            
+
 		</ul>
 	</nav>
 </div>
@@ -79,28 +79,28 @@
    MyDiv2.innerHTML = MyDiv1.innerHTML;
 
 </script>
-	<div class="content slide">    
+	<div class="content slide">
 		<ul class="responsive">
 			<li class="header-section">
 				<div class="placefiller">
-                    
+
 					<div class="pic-wrapper">
-                        
+
                         <figure class="pic-1"></figure>
                         <figure class="pic-2"></figure>
                         <figure class="pic-3"></figure>
                         <figure class="pic-4"></figure>
                     </div>
-                    
+
                 </div>
-                
+
             </li>
-        </ul>   
+        </ul>
 
     </div>
     <div>
     <div class="body-content content wrapper">
-        
+
 
 <ul class="cards">
   <li class="cards__item">
@@ -133,11 +133,10 @@
       </div>
     </div>
   </li>
-  
+
 </ul>
-  
-        </div>
-    
+</div>
+
 <footer class="footer">
 	<img src="./img/logo.png" class="logo-bottom"/>
     <div class="copyright">All copyrights reserved by The Rain tree hotel - Thissamaharama - © <?php echo date("Y");?> | <a href="">Terms And condions </a> | <a href="">Site map</a>
