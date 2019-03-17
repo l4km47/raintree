@@ -389,17 +389,20 @@ body {
     padding-top: 50%;
   }
 }
-.card__image--flowers {
+.card__image--rooftop {
   background-image: url(../img/card1.jpg);
 }
-.card__image--river {
+.card__image--rest {
   background-image: url(../img/card2.jpg);
 }
-.card__image--record {
+.card__image--rooms {
   background-image: url(../img/card3.jpg);
 }
-.card__image--fence {
+.card__image--foods {
   background-image: url(../img/card4.jpg);
+}
+.card__image--swimningpool {
+  background-image: url(../img/card5.jpg);
 }
 .card__title {
   color: #696969;
