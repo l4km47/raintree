@@ -22,7 +22,7 @@
 
         </h1>
 	</header>
-	<img src="img/big-logo.png" class="logo1"/>
+	<img src="/raintree/img/big-logo.png" class="logo1"/>
 
 	<nav class="slide fill">
 		<ul>

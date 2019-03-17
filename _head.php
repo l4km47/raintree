@@ -10,17 +10,17 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
 <!-- Style Sheets -->
-<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
-<link rel="stylesheet" type="text/css" media="all" href="css/trunk.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/raintree/css/reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/raintree/css/trunk.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
 
 
 <!-- Scripts -->
 <script type="text/javascript">
 	if (typeof jQuery == 'undefined')
-		document.write(unescape("%3Cscript src='js/jquery-1.9.js'" +
+		document.write(unescape("%3Cscript src='/raintree/js/jquery-1.9.js'" +
 															"type='text/javascript'%3E%3C/script%3E"))
 </script>
-<script type="text/javascript" language="javascript" src="js/trunk.js"></script>
-<script type="text/javascript" language="javascript" src="js/index.js"></script>
+<script type="text/javascript" language="javascript" src="/raintree/js/trunk.js"></script>
+<script type="text/javascript" language="javascript" src="/raintree/js/index.js"></script>
 </head>

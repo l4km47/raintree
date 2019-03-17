@@ -1,6 +1,6 @@
 
 <footer class="footer">
-	<img src="./img/logo.png" class="logo-bottom"/>
+	<img src="/raintree/img/logo.png" class="logo-bottom"/>
     <div class="copyright">All copyrights reserved by The Rain tree hotel - Thissamaharama - © <?php echo date("Y");?> | <a href="">Terms And condions </a> | <a href="">Site map</a>
 
 </div>
